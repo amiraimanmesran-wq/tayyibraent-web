@@ -40,7 +40,7 @@ function Navbar() {
     </span>
   </span>
 </a>
-      </a>
+    
       <div className="hidden items-center gap-8 text-sm font-medium text-slate-300 md:flex">
         {links.map(([label, href]) => <a key={href} href={href} className="transition hover:text-gold">{label}</a>)}
         <a href="#early-access" className="rounded-full bg-gold px-5 py-2.5 font-bold text-midnight transition hover:bg-gold-light">Early Access <ArrowRight size={15} className="ml-1 inline" /></a>
