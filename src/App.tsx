@@ -218,9 +218,58 @@ function Pricing() {
   </section>;
 }
 
+
 function About() {
-  return <section id="about" className="bg-slate-50 py-24 text-midnight md:py-28"><div className="mx-auto grid max-w-7xl gap-10 px-5 md:px-8 lg:grid-cols-2 lg:items-center"><div><p className="text-xs font-bold uppercase tracking-[.22em] text-amber-700">About Tayyibraent</p><h2 className="mt-4 font-display text-4xl font-extrabold md:text-5xl">Technology in service of clearer compliance.</h2></div><div className="rounded-3xl border border-slate-200 bg-white p-7 md:p-9"><p className="leading-8 text-slate-600">Tayyibraent is an emerging halal technology venture exploring how AI-assisted workflows can help teams organise documentation, identify information gaps, and prepare for compliance reviews.</p><p className="mt-4 leading-8 text-slate-600">Our approach keeps evidence and human review at the centre. Tools can help organise information, but official certification decisions remain with the relevant authorities.</p><p className="mt-6 text-xs font-bold uppercase tracking-[.2em] text-amber-800">Tayyibraent — Since 2025</p></div></div></section>;
+  return (
+    <section
+      id="about"
+      className="bg-slate-50 py-24 text-midnight md:py-28"
+    >
+      <div className="mx-auto grid max-w-7xl gap-10 px-5 md:px-8 lg:grid-cols-2 lg:items-center">
+        <div>
+          <p className="text-xs font-bold uppercase tracking-[.22em] text-amber-700">
+            About Tayyibraent
+          </p>
+
+          <h2 className="mt-4 font-display text-4xl font-extrabold md:text-5xl">
+            Tayyibraent — AI-Assisted Halal Compliance Since 2025
+          </h2>
+
+          <p className="mt-5 leading-7 text-slate-600">
+            Tayyibraent is a Malaysia-focused halal technology initiative
+            established in 2025 to explore smarter ways to organise halal
+            compliance documentation and ingredient information.
+          </p>
+        </div>
+
+        <div className="rounded-3xl border border-slate-200 bg-white p-7 md:p-9">
+          <h3 className="text-xl font-bold">
+            Our Purpose
+          </h3>
+
+          <p className="mt-4 leading-8 text-slate-600">
+            Tayyibraent is developing AI-assisted workflows to help food
+            businesses organise halal documents, identify ingredient
+            information that needs verification, and prepare for compliance
+            reviews.
+          </p>
+
+          <p className="mt-4 leading-8 text-slate-600">
+            Our approach puts evidence, transparency, and human review
+            first. These tools are intended to support preparation, not
+            replace qualified halal professionals or official certification
+            authorities.
+          </p>
+
+          <p className="mt-6 text-xs font-bold uppercase tracking-[.2em] text-amber-800">
+            Tayyibraent — Established 2025
+          </p>
+        </div>
+      </div>
+    </section>
+  );
 }
+
 
 function EarlyAccess() {
   const [email,setEmail]=useState('');
