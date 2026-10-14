@@ -299,7 +299,16 @@ function EarlyAccess() {
 }
 
 function Footer() {
-  return <footer className="border-t border-white/10 bg-midnight pb-8 pt-14 text-slate-400"><div className="mx-auto max-w-7xl px-5 md:px-8"><div className="grid gap-10 md:grid-cols-3"><div className="md:col-span-2"><a href="#home" className="inline-flex flex-col"><span className="font-display text-2xl font-extrabold text-white">TAYYIBRAENT</span><span className="mt-1 text-[10px] font-bold uppercase tracking-[.25em] text-gold">Since 2025</span></a><p className="mt-5 max-w-md text-sm leading-7">AI-assisted workflows for halal documentation, ingredient screening, and audit readiness. Built with human review and evidence at the centre.</p></div><div><h3 className="font-bold text-white">Contact</h3><a href="mailto:admin@tayyibraent.my" className="mt-4 inline-flex items-center gap-2 text-sm transition hover:text-gold"><Mail size={15}/>admin@tayyibraent.my</a><p className="mt-2 text-sm">tayyibraent.my</p></div></div><div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between"><p className="text-xs">© {new Date().getFullYear()} Tayyibraent. All rights reserved.</p><span className="inline-flex w-fit rounded-full border border-gold/20 px-4 py-2 text-[10px] font-bold uppercase tracking-[.2em] text-gold">TAYYIBRAENT — SINCE 2025</span></div><p className="mt-5 max-w-4xl text-[11px] leading-5 text-slate-600">Prototype disclaimer: Features and sample outputs are illustrative and are not official halal determinations, certification verification, or a substitute for applicable regulatory guidance and qualified review.</p></div></footer>;
+  return <footer className="border-t border-white/10 bg-midnight pb-8 pt-14 text-slate-400"><div className="mx-auto max-w-7xl px-5 md:px-8"><div className="grid gap-10 md:grid-cols-3"><div className="md:col-span-2"><a href="#home" className="inline-flex flex-col"><span className="font-display text-2xl font-extrabold text-white">TAYYIBRAENT</span><span className="mt-1 text-[10px] font-bold uppercase tracking-[.25em] text-gold">Since 2025</span></a><p className="mt-5 max-w-md text-sm leading-7">AI-assisted workflows for halal documentation, ingredient screening, and audit readiness. Built with human review and evidence at the centre.</p></div><div><h3 className="font-bold text-white">Contact</h3><a href="mailto:admin@tayyibraent.my" className="mt-4 inline-flex items-center gap-2 text-sm transition hover:text-gold"><Mail size={15}/>admin@tayyibraent.my</a><p className="mt-2 text-sm">tayyibraent.my</p>
+<a
+  href="https://www.linkedin.com/company/tayyibraent/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-3 inline-flex items-center gap-2 text-sm transition hover:text-gold"
+>
+  LinkedIn
+  <ArrowRight size={15} />
+</a></div></div><div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between"><p className="text-xs">© {new Date().getFullYear()} Tayyibraent. All rights reserved.</p><span className="inline-flex w-fit rounded-full border border-gold/20 px-4 py-2 text-[10px] font-bold uppercase tracking-[.2em] text-gold">TAYYIBRAENT — SINCE 2025</span></div><p className="mt-5 max-w-4xl text-[11px] leading-5 text-slate-600">Prototype disclaimer: Features and sample outputs are illustrative and are not official halal determinations, certification verification, or a substitute for applicable regulatory guidance and qualified review.</p></div></footer>;
 }
 
 export default function App() {
