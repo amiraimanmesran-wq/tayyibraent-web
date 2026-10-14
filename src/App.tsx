@@ -25,9 +25,21 @@ function Navbar() {
   ];
   return <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/5 bg-midnight/85 backdrop-blur-xl">
     <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-      <a href="#home" aria-label="Tayyibraent home" className="flex flex-col leading-none">
-        <span className="font-display text-xl font-extrabold tracking-tight text-white md:text-2xl">TAYYIBRAENT</span>
-        <span className="mt-1.5 text-[9px] font-bold uppercase tracking-[.25em] text-gold">Since 2025</span>
+     <a href="#home" aria-label="Tayyibraent home" className="flex items-center gap-3">
+  <img
+    src="/tayyibraent-logo.png"
+    alt="Tayyibraent logo"
+    className="h-11 w-11 rounded-lg object-contain"
+  />
+  <span className="flex flex-col leading-none">
+    <span className="font-display text-xl font-extrabold tracking-tight text-white md:text-2xl">
+      TAYYIBRAENT
+    </span>
+    <span className="mt-1.5 text-[9px] font-bold uppercase tracking-[.25em] text-gold">
+      Since 2025
+    </span>
+  </span>
+</a>
       </a>
       <div className="hidden items-center gap-8 text-sm font-medium text-slate-300 md:flex">
         {links.map(([label, href]) => <a key={href} href={href} className="transition hover:text-gold">{label}</a>)}
